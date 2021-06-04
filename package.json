@@ -1,0 +1,38 @@
+{
+  "name": "pn-framework",
+  "version": "0.2.0",
+  "description": "phoenix nirvana framework",
+  "main": "lib/index.js",
+  "bin": {
+    "pn": "bin/pn.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/byhgj/pn-framework.git"
+  },
+  "keywords": [
+    "pn",
+    "phoenix",
+    "nirvana",
+    "framework"
+  ],
+  "author": "byhgj",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitee.com/byhgj/pn-framework/issues"
+  },
+  "homepage": "https://gitee.com/byhgj/pn-framework#readme",
+  "dependencies": {
+    "commander": "^7.0.0",
+    "cron": "^1.8.2",
+    "moment": "^2.29.1"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "devDependencies": {}
+}
